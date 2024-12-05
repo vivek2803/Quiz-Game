@@ -107,7 +107,7 @@ const checkAnswer = () => {
     }
     else {
         // alert("Wrong answer");
-        displayAlert(`Wrong Answer! ${quiz[currentQuestionIndex].answer} is the Correct Answer`);
+        displayAlert(`Wrong Answer! The Correct Answer is ${quiz[currentQuestionIndex].answer}`);
     }
     timeLeft = 15;
     currentQuestionIndex++;
